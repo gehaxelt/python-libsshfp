@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "libsshfp"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Sebastian Neef", email="code@gehaxelt.in" },
 ]
-description = "TODO"
+description = "A tiny library to handle and validate SSHFP DNS records."
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.7"
