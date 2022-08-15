@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libsshfp"
+version = "0.0.1"
+authors = [
+  { name="Sebastian Neef", email="code@gehaxelt.in" },
+]
+description = "TODO"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gehaxelt/python-libsshfp"
+"Bug Tracker" = "https://github.com/gehaxelt/python-libsshfp/issues"
