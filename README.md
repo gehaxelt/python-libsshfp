@@ -41,5 +41,4 @@ Then import the library and let it do its magic:
 Contributions are welcome! Feel free to create a merge request :-)
 
 - [ ] Create more documentation
-- [ ] Write more tests
 - [ ] Further improve the library (?)

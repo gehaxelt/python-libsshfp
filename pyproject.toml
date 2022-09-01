@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "libsshfp"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Sebastian Neef", email="code@gehaxelt.in" },
 ]
@@ -21,3 +21,6 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/gehaxelt/python-libsshfp"
 "Bug Tracker" = "https://github.com/gehaxelt/python-libsshfp/issues"
+
+[tool.pytest.ini_options]
+addopts = ""

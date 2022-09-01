@@ -132,7 +132,7 @@ class SSHFP:
         elif algo == SSHFP.ALGO_ED448:
             return "ED448"
         else:
-            raise Exception(f"Wrong algorith {algo}")
+            raise Exception(f"Wrong Algorithm {algo}")
 
     @classmethod
     def type_to_str(cls, t):
@@ -142,6 +142,8 @@ class SSHFP:
             return "SHA1"
         elif t == SSHFP.TYPE_SHA256:
             return "SHA256"
+        else:
+            raise Exception(f"Wrong Type {t}")
 
     @classmethod
     def type_to_id(cls, s):
